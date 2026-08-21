@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and this software."
+title: "EXACT analysis code"
+type: software
+authors:
+  - family-names: Chen
+    given-names: Dieyi
+year: 2026
+license: MIT
+repository-code: "https://github.com/REPLACE_WITH_ACCOUNT/EXACT-code"
