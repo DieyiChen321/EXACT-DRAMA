@@ -62,7 +62,8 @@ for (i in seq_len(combined_counts[[disease_id]])) {
   z <- combined$beta / combined$se
   combined_bp <- paste0(combined$CHR, ":", combined$POS)
   beta[[paste0("combined_", i)]] <- (z / sqrt(ratio_table$ss[[row]]))[match(bp, combined_bp)]
-  se[[paste0("combined_", i)]] <- (1 / sqrt(ratio_table$ss[[row]]))[match(bp, combined_bp)]
+  combined_se <- rep(1 / sqrt(ratio_table$ss[[row]]), nrow(combined))
+  se[[paste0("combined_", i)]] <- combined_se[match(bp, combined_bp)]
   combined_ratio[[i]] <- ratio_table$female_sex_ratio[[row]]
 }
 
