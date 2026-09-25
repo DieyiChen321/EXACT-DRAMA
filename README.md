@@ -90,11 +90,15 @@ Rscript scripts/prepare_drama_inputs.R 1 \
 ```
 
 The disease order is SLE, CD, PBC, RA, UC, VIT, AS, CELIAC, MS, PSOA, SJOGREN,
-and T1D. Then run one of the 10 computational chunks:
+and T1D. The example above uses disease ID 1 and therefore creates
+`sle_beta.tsv`, `sle_se.tsv`, and `sle_female_proportions.tsv` in
+`data/prepared`. Then run one of the 10 computational chunks:
 
 ```sh
 Rscript scripts/run_drama.R \
-  data/beta.tsv data/se.tsv data/female_proportions.tsv 1 \
+  data/prepared/sle_beta.tsv \
+  data/prepared/sle_se.tsv \
+  data/prepared/sle_female_proportions.tsv 1 \
   results/drama_chunk_1.tsv
 ```
 
