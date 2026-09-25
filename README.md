@@ -26,6 +26,7 @@ downstream sex-stratified analyses, such as GWAS-sc-eQTL colocalization.
 - `scripts/run_jobs_eqtl.R`: EXACT Step 2, refining sex-specific sc-eQTL effects.
 - `scripts/install_dependencies.R`: installs the R dependencies and JOBS package.
 - `tests/smoke_test.R`: synthetic test that requires no controlled data.
+- `examples/`: runnable EXACT and DRAMA simulations with inputs and expected outputs.
 - `example_data/README.md`: input schemas and data-access boundary.
 
 ## Installation
@@ -114,6 +115,17 @@ The synthetic DRAMA test does not use manuscript data:
 ```sh
 Rscript tests/smoke_test.R
 ```
+
+Reviewers can reproduce deterministic EXACT and DRAMA simulations, including
+before-versus-after accuracy summaries, without manuscript data:
+
+```sh
+Rscript examples/run_all_examples.R
+```
+
+See `examples/README.md`. These examples demonstrate execution and improved
+estimation accuracy under their stated simulations; they do not recreate the
+manuscript's empirical power estimates.
 
 ## Data availability
 

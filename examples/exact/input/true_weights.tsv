@@ -1,0 +1,15 @@
+cell_type	true_weight
+B_IN	0.13
+B_Mem	0.09
+Plasma	0.04
+CD4_ET	0.08
+CD4_NC	0.13
+CD4_SOX4	0.05
+CD8_ET	0.07
+CD8_NC	0.06
+CD8_S100B	0.04
+DC1	0.03
+Mono_C	0.08
+Mono_NC	0.07
+NK	0.07
+NK_R	0.06
