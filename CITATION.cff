@@ -1,10 +1,30 @@
 cff-version: 1.2.0
 message: "Please cite the associated manuscript and this software."
-title: "EXACT analysis code"
+title: "EXACT and DRAMA analysis code"
 type: software
 authors:
   - family-names: Chen
     given-names: Dieyi
+  - family-names: Wang
+    given-names: Lida
+  - family-names: Gao
+    given-names: Shuang
+  - family-names: Zhang
+    given-names: Fan
+  - family-names: Hu
+    given-names: Tingyang
+  - family-names: Diwadkar
+    given-names: Avantika R.
+  - family-names: Song
+    given-names: Lujia
+  - family-names: Li
+    given-names: Tang
+  - family-names: Carrel
+    given-names: Laura
+  - family-names: Liu
+    given-names: Dajiang J.
+  - family-names: Jiang
+    given-names: Bibo
 year: 2026
 license: MIT
-repository-code: "https://github.com/REPLACE_WITH_ACCOUNT/EXACT-code"
+repository-code: "https://github.com/DieyiChen321/EXACT-DRAMA"
