@@ -116,7 +116,7 @@ The synthetic DRAMA test does not use manuscript data:
 Rscript tests/smoke_test.R
 ```
 
-Reviewers can reproduce deterministic EXACT and DRAMA simulations, including
+Users can reproduce deterministic EXACT and DRAMA simulations, including
 before-versus-after accuracy summaries, without manuscript data:
 
 ```sh
@@ -132,7 +132,7 @@ manuscript's empirical power estimates.
 This repository contains code only. It intentionally excludes controlled-access,
 third-party, and large summary-statistic files. Source datasets, accession numbers,
 and access conditions should be listed in the manuscript's key resources table and
-data availability statement. Reviewers can inspect and run the code without a
+data availability statement. Users can inspect and run the code without a
 GitHub account.
 
 ## License and citation

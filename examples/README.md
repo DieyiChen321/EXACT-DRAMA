@@ -1,6 +1,6 @@
-# Reviewer examples
+# Reproducible examples
 
-These deterministic simulations let reviewers run both methods without controlled manuscript data. Inputs, known true effects, and expected outputs are committed.
+These deterministic simulations let users run both methods without controlled manuscript data. Inputs, known true effects, and expected outputs are committed.
 
 ```sh
 Rscript scripts/install_dependencies.R

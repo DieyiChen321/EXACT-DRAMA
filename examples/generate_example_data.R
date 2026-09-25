@@ -30,4 +30,4 @@ b<-data.frame(snp=snp,female=tf+rnorm(n,sd=sex_se),male=tm+rnorm(n,sd=sex_se),
 s<-data.frame(snp=snp,female=sex_se,male=sex_se,combined_1=cs[1],combined_2=cs[2],combined_3=cs[3])
 d<-file.path(root,"drama","input"); write_tsv(b,file.path(d,"beta.tsv")); write_tsv(s,file.path(d,"se.tsv"))
 write_tsv(data.frame(study=names(b)[-1],female_proportion=p),file.path(d,"female_proportions.tsv")); write_tsv(data.frame(snp=snp,beta.female=tf,beta.male=tm),file.path(d,"true_effects.tsv"))
-message("Generated deterministic reviewer inputs.")
+message("Generated deterministic example inputs.")

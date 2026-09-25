@@ -15,4 +15,4 @@ wo<-data.frame(cell_type=ct,estimated_weight=as.numeric(w)); fo<-data.frame(ID=f
 wr(wo,"estimated_weights.tsv"); wr(fo,"refined_female_effects.tsv"); wr(mo,"refined_male_effects.tsv"); wr(z,"precision_summary.tsv")
 for(n in c("estimated_weights.tsv","refined_female_effects.tsv","refined_male_effects.tsv","precision_summary.tsv")){a<-read.delim(file.path(e,n),check.names=FALSE);b<-read.delim(file.path(o,n),check.names=FALSE);stopifnot(isTRUE(all.equal(a,b,tolerance=1e-10,check.attributes=FALSE)))}
 print(z)
-message("EXACT reviewer example passed.")
+message("EXACT reproducible example passed.")

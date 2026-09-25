@@ -48,5 +48,5 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
-# Recreated by reviewer examples
+# Recreated by reproducible examples
 examples/reproduced_output/
